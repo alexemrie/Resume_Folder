@@ -1,0 +1,170 @@
+% !TEX encoding = UTF-8 Unicode
+
+% LaTeX file for resume 
+% This file uses the resume document class (res.cls)
+
+\documentclass{res}
+
+%\usepackage{pslatex} %for printing pdf fonts properly
+
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+\newsectionwidth{0pt}  % So the text is not indented under section headings
+\usepackage{fancyhdr}  % use this package to get a 2 line header
+\renewcommand{\headrulewidth}{1pt} % suppress line drawn by default by fancyhdr
+\setlength{\headheight}{30pt} % allow room for 2-line header
+\setlength{\headsep}{0pt}  % space between header and text
+\setlength{\headheight}{30pt} % allow room for 2-line header
+\pagestyle{fancy}     % set pagestyle for document
+
+\usepackage{varwidth}
+
+
+\lhead{{\LARGE \bf Alex Emrie}}
+\rhead{\textit{Email:} emrieaj@gmail.com \\
+  \textit{Phone:} (303) 358-8190}
+  
+  
+%\rhead{ {\it A. Emrie}\\{\it p. \thepage} } % put text in header (right side)
+
+
+\cfoot{}                                     % the foot is empty
+\topmargin=-0.5in % start text higher on the page
+\usepackage{parcolumns}
+\usepackage{hyperref}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\def\changemargin#1#2{\list{}{\rightmargin#2\leftmargin#1}\item[]}
+\let\endchangemargin=\endlist 
+\begin{document}
+
+%\thispagestyle{empty} % this page has no header  
+
+
+\begin{resume}
+
+	\begin{center}
+	\begin{varwidth}[t]{\textwidth}
+	\raggedright
+	
+	Curiosity-driven, detail-oriented, passionate software engineer \\
+	looking to share ideas, solve problems, and drive innovation alongside \\ 
+	other creative, forward-thinking industry professionals.
+	
+	\end{varwidth}	
+	\end{center}
+
+\vspace{0.2in} 
+
+\raggedright
+\begin{parcolumns}{2}
+
+\colchunk{\centering \large \underline{Languages \& Frameworks}}
+\colchunk{\centering \large \underline{Soft Skills}}
+
+\colplacechunks
+\colchunk{\begin{itemize}\item Node.js, Ruby on Rails, React \item JavaScript, jQuery, Ruby, HTML, CSS, SQL, Cloudant NoSQL, MQTT, \LaTeX \end{itemize}}
+\colchunk{\begin{itemize}\item Organized and detail-oriented \item Critical thinking and creative problem solving \item Collaborative group work\end{itemize}}
+\end{parcolumns}
+  
+\vspace{0.1in} 
+\section{\centerline{PROFESSIONAL EXPERIENCE}} 
+\vspace{8pt}
+
+{\sl Software Engineer} \hfill        Mar. 2019 - Present \\
+Charter Communications, Denver, CO
+\begin{changemargin}{0.4cm}{0cm} 
+Member of online video portal team delivering web-based video streaming to Spectrum customers.
+\end{changemargin} 
+   \begin{itemize} \itemsep -2pt % reduce space between items
+      \item Help architect new content management system leveraging React factory pattern.
+      \item Update existing API's as part of transition from Adobe Flash to DASH streaming protocol.
+      \item Member of small team responsible for delivering new offer tactics and purchase experience.
+      \item Implement analytics for browser interaction across various app components, add analytics for dynamic ad insertion for video playback.
+   \item Assist in migration from Angular I to React.
+   \end{itemize}
+
+{\sl Software Engineer} \hfill        Aug. 2015 - Jan. 2019 \\
+IBM, San Francisco, CA
+\begin{changemargin}{0.4cm}{0cm} 
+Built and deployed applications for enterprise and startup clients on the IBM Cloud platform using agile and test-driven development practices. Collaborated directly with UX and UI designers to facilitate agile feedback cycles for client engagements.  
+\end{changemargin} 
+   \begin{itemize} \itemsep -2pt % reduce space between items
+   \item Developed package tracking system using Message Queuing Telemetry Transport (MQTT) communication protocol for startup client using React/Redux for real time location updates displayed via third-party mapping API.
+   \item Led development team in coordination with Fiat Chrysler and Panasonic for implementation of voice command system using Watson Conversation service, presented at CES 2017 in Las Vegas. 
+   \item Built application dashboard integrating IoT device information for Kimberly Clark intelligent washroom project.
+   \item Developed and analyzed social media content for prototype project for the Bank of Chile built with React/Node.js for dynamic UI updates and scheduling API requests.
+   \item Consulted with American Airlines for project relating to new European Union data privacy requirements and assisted in interviewing candidates to sustain project longer term.
+    \item IBM Certified Application Developer - Cloud Platform V1
+   \end{itemize}
+
+{\sl Full-Stack Developer Student} \hfill        Jan. 2015 - June 2015 \\
+Galvanize, Boulder, CO
+\begin{changemargin}{0.4cm}{0cm} 
+Completed intensive developer program over the course of 24 weeks. Learned computer science fundamentals and established proficiency in building production quality front-end and back-end web applications using modern languages and frameworks.
+\end{changemargin} 
+   \begin{itemize} \itemsep -2pt % reduce space between items
+   \item \textit{Projects}: MusicBoxApp (Spotify API, Ajax, JavaScript, CSS), gCamp (Bootstrap, HTML, Ruby on Rails, Haml, Heroku), WeatherApp (Apache Cordova, Ajax, Flickr/OpenWeatherMap API)
+   \end{itemize}
+   
+  \vspace*{0.1in} 
+
+{\sl Financial Analyst} \hfill        Dec. 2013 - Jan. 2015 \\
+Lutheran Medical Center, Wheat Ridge, CO
+  \begin{changemargin}{0.4cm}{0cm} 
+Worked in the hospital administrative suite and collaborated with staff across multiple departments as part of larger project to reduce the length of stay for patients, consequently helping to reduce the overhead cost to the hospital and improving patient satisfaction scores.
+\end{changemargin} 
+   \begin{itemize} \itemsep -2pt % reduce space between items
+   \item Analyzed key performance metrics across multiple departments looking for inefficiencies and opportunities for improvement.    
+   \item Led new policy implementation of nurse uniform standardization program to make it easier for clinical staff, patients, and physicians to identify critical skillsets and qualifications resulting in increased patient satisfaction and quality standards.
+   \end{itemize}
+  
+\vspace*{4pt} 
+\section{\centerline{CAREER EXPLORATION \& INTERNSHIPS}} 
+\vspace{8pt} 
+   
+{\sl Contract Associate (Temporary Position)} \hfill    Oct. 2013 - Nov. 2013\\
+Express Employment Professionals, Denver, CO
+
+ \begin{itemize} \itemsep -2pt
+  \item  Improved efficiency in processing of professional license applications for the Department of Regulatory Agencies (DORA) through implementation of barcoding system.
+\end{itemize} \vspace{-6pt}
+
+{\sl Field Technician} \hfill    June 2013 - July 2013\\
+ RMC Consultants, Wheat Ridge, CO
+
+ \begin{itemize} \itemsep -2pt
+  \item  Measured water contamination at abandoned missile silo near Cheyenne, WY.
+  \item  Installed concrete enclosures around former mining sites in Naturita, CO.
+\end{itemize} \vspace{-6pt}
+  
+{\sl Research Assistant} \hfill  May 2012 - June 2012 \\
+U.S. Geological Survey (USGS), Nome, AK
+  \begin{itemize}
+  \item  Conducted invertebrate transect sampling and regression analysis to determine possible correlations between arthropod and songbird distributions across arctic tundra.
+  \item Applied research to undergraduate thesis for Whitman College degree requirements.
+ \end{itemize}
+
+\section{\centerline{EDUCATION}} 
+\vspace{8pt} 
+
+{\sl Bachelor of Arts in Biology}  \hfill 2009 - 2013\\
+Whitman College, Walla Walla, WA
+
+\section{\centerline{ACHIEVEMENTS}}
+\vspace{4pt}
+
+	\begin{center}
+	\begin{varwidth}[t]{\textwidth}
+	\raggedright
+
+	Whitman Collegiate Cycling Member (NWCC Road Race Champion)\\
+	Juvenile Diversion Program Volunteer\\
+	Tae Kwon Do, First Degree Black Belt
+
+	\end{varwidth}	
+	\end{center}
+ 
+\end{resume} 
+\end{document}
